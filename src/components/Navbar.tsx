@@ -4,15 +4,6 @@ import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import {
-    AiOutlineHome,
-    AiOutlineFundProjectionScreen,
-    AiOutlineUser,
-} from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
-import { RiGitBranchFill } from "react-icons/ri";
-import { RxOpenInNewWindow } from "react-icons/rx";
-import { Button } from "react-bootstrap";
 
 import logo from "../assets/icon.png";
 
