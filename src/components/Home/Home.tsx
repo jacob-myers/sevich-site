@@ -1,34 +1,23 @@
 //import reactLogo from '../../assets/react.svg'
-import reactLogo from '@assets/react.svg'
-import viteLogo from '/vite.svg'
 
-import { useState } from 'react'
+import back from '@assets/self_back.jpg'
+
+import { Row, Col } from 'react-bootstrap'
 
 function Home() {
-    const [count, setCount] = useState(0)
     return (
-        <>
-            <div>
-                <a href="https://vite.dev" target="_blank">
-                <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                <img src={reactLogo} className="logo react" alt="React logo" />
-                </a>
-            </div>
-            <h1>Vite + React</h1>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                count is {count}
-                </button>
-                <p>
-                Edit <code>src/App.tsx</code> and save to test HMR
-                </p>
-            </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
-        </>
+        <div >
+            <Row style={{display: 'flex', justifyContent: 'center'}}>
+                <Col style={{alignContent: 'center', width: '50%'}}>
+                    <blockquote>
+                        <h1>Who I am</h1>
+                    </blockquote>
+                </Col>
+                <Col>
+                    <img src={back} className="img-home" alt="Vite logo" />
+                </Col>
+            </Row>
+        </div>
     );
 }
 
