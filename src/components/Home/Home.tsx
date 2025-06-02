@@ -7,8 +7,8 @@ import { Row, Col } from 'react-bootstrap'
 function Home() {
     return (
         <div >
-            <Row style={{display: 'flex', justifyContent: 'center'}}>
-                <Col style={{alignContent: 'center', width: '50%'}}>
+            <Row style={{display: 'flex', justifyContent: 'center', gap:'20px'}}>
+                <Col className='home-col' style={{width: '50%', minWidth: '20em'}}>
                     <blockquote className='blockquote' style={{margin:'0', textAlign:'left'}}>
                         <h1>Karen Myers</h1>
                         <p className='text-normal'>
@@ -23,7 +23,7 @@ function Home() {
                         </p>
                     </blockquote>
                 </Col>
-                <Col style={{alignContent: 'center', marginLeft:'20px'}}>
+                <Col className='home-col' style={{minWidth: '30em'}}>
                     <img src={back} className="img-home" alt="self" />
                 </Col>
             </Row>

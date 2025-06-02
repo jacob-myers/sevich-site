@@ -129,13 +129,19 @@ html {
   width: auto;
 }
 
-/* About Section */
+/* Home Section */
 
 .img-home {
   width: 100% !important;
   height: auto !important;
-  max-width: 600px !important;
+  /*max-width: 600px !important;*/
   border: 3px solid var(--imp-text-color) !important;
   box-shadow: 0 4px 24px rgba(24, 25, 48, 0.18), 0 1.5px 6px rgba(24, 25, 48, 0.12) !important;
   border-radius: 12px !important;
+}
+
+.home-col {
+  min-width: 300px;
+  align-content: center !important;
+  margin-bottom: 20px !important;
 }
